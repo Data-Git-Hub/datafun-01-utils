@@ -64,7 +64,7 @@ Military Discount:                                          {military_discount}
 Military Discount Percentage:                               {military_precentage.2%}
 Years in Operation:                                         {years_in_operation}
 Products Offered:                                           {product_type_offered}
-Client Satisfaction Scores Average Per http://review.io:    {client_satisfaction_scores}
+Client Satisfaction Scores Average Per http://review.io:    {average_client_satisfaction_reviews_io}
 Average Delivery Time:                                      {average_deliver_time_in_days}
 Minimum Satisfaction Score:                                 {min_score}
 Maximum Satisfaction Score:                                 {max_score}
@@ -75,6 +75,25 @@ Standard Deviation of Satisfaction Scores:                  {stdev_score:.2f}
 #####################################
 # Define global functions (reusable instructions)
 #####################################
+
+def get_byline() -> str:
+    '''
+    Get a byline for my analytics projects.
+       
+    Returns a string byline that illustrates my specific skills.
+
+    A function is a block of code that performs a task.
+    This function returns our byline.
+    We can call this (or other functions) in later modules 
+    so we can write it once and reuse it. 
+    We use a type hint to indicate this function returns a string
+    (that is, it has a Python type of str).
+    It doesn't need any additional information passed in, 
+    so there's nothing required inside the parentheses.
+    Everything after the colon must be indented consistently (usually four spaces)
+    '''
+    return byline
+
 
 #####################################
 # Define main() function for this module.

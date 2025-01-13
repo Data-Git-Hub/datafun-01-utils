@@ -22,6 +22,36 @@ import statistics
 # Declare Global Variables
 #####################################
 
+# declare a boolean variable (has a value True or False)
+# TODO: Add another or replace this with your boolean variable
+free_shipping: bool = True
+military_discount = True
+
+# declare an integer variable 
+# TODO: Add or replace this with your integer variable
+years_in_operation: int = 90
+
+# declare a floating point variable
+# TODO: Add or replace this with your floating point variable
+average_client_satisfaction_reviews_io: float = 1.3
+average_deliver_time_in_days = 7.6
+percent_military_discount = 0.1
+
+# declare a list of strings
+# TODO: Add or replace this with your list  
+product_type_offered = ["Hand Rolled Cigars", "Machine Made Cigars", "Sampler Cigars"]
+
+# declare a list of numbers so we can illustrate statistics skills
+# TODO: Add or replace this with your numeric list  
+client_rating_score_reviews_io: list = [1.0, 1.0, 1.5, 2.0, 1.5, 3.0, 1.0, 1.0, 1.0, 1.0, 5.0, 1.0, 1.0, 1.5, 1.5, 2.0, 1.0, 1.0, 1.0]
+
+# Calculate basic statistics using built-in Python functions and the statistics module
+# TODO: Replace these variable names with the variable name of your numeric list
+min_score: float = min(client_rating_score_reviews_io)  
+max_score: float = max(client_rating_score_reviews_io)  
+mean_score: float = statistics.mean(client_rating_score_reviews_io)  
+stdev_score: float = statistics.stdev(client_rating_score_reviews_io)
+
 #####################################
 # Define global functions (reusable instructions)
 #####################################

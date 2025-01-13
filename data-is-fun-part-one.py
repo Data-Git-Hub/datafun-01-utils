@@ -25,7 +25,7 @@ import statistics
 # declare a boolean variable (has a value True or False)
 # TODO: Add another or replace this with your boolean variable
 free_shipping: bool = True
-military_discount = True
+military_discount: bool = True
 
 # declare an integer variable 
 # TODO: Add or replace this with your integer variable
@@ -34,12 +34,12 @@ years_in_operation: int = 90
 # declare a floating point variable
 # TODO: Add or replace this with your floating point variable
 average_client_satisfaction_reviews_io: float = 1.3
-average_deliver_time_in_days = 7.6
-percent_military_discount = 0.1
+average_deliver_time_in_days: float = 7.6
+military_precentage: float = 0.10
 
 # declare a list of strings
 # TODO: Add or replace this with your list  
-product_type_offered = ["Hand Rolled Cigars", "Machine Made Cigars", "Sampler Cigars"]
+product_type_offered: list = ["Hand Rolled Cigars", "Machine Made Cigars", "Sampler Cigars"]
 
 # declare a list of numbers so we can illustrate statistics skills
 # TODO: Add or replace this with your numeric list  
@@ -51,6 +51,26 @@ min_score: float = min(client_rating_score_reviews_io)
 max_score: float = max(client_rating_score_reviews_io)  
 mean_score: float = statistics.mean(client_rating_score_reviews_io)  
 stdev_score: float = statistics.stdev(client_rating_score_reviews_io)
+
+# Use a Python formatted string (f-string) to show information
+# TODO: Modify the text in the byline to fit your information
+# TODO: Modify the variables in the byline to use your variable names
+byline: str = f"""
+---------------------------------------------------------
+Redacted Online Cigar Online Storefront Analytics: Delivering Professional Insights
+---------------------------------------------------------
+Free Shipping:                                              {free_shipping}
+Military Discount:                                          {military_discount}
+Military Discount Percentage:                               {military_precentage.2%}
+Years in Operation:                                         {years_in_operation}
+Products Offered:                                           {product_type_offered}
+Client Satisfaction Scores Average Per http://review.io:    {client_satisfaction_scores}
+Average Delivery Time:                                      {average_deliver_time_in_days}
+Minimum Satisfaction Score:                                 {min_score}
+Maximum Satisfaction Score:                                 {max_score}
+Mean Satisfaction Score:                                    {mean_score:.2f}
+Standard Deviation of Satisfaction Scores:                  {stdev_score:.2f}
+"""
 
 #####################################
 # Define global functions (reusable instructions)

@@ -61,8 +61,8 @@ Redacted Online Cigar Online Storefront Analytics: Delivering Professional Insig
 ---------------------------------------------------------
 Free Shipping:                                              {free_shipping}
 Military Discount:                                          {military_discount}
-Military Discount Percentage:                               {military_precentage.2%}
-Years in Operation:                                         {years_in_operation}
+Military Discount Percentage:                               {military_precentage:.0%}
+Years in Operation:                                         {years_in_operation} years
 Products Offered:                                           {product_type_offered}
 Client Satisfaction Scores Average Per http://review.io:    {average_client_satisfaction_reviews_io}
 Average Delivery Time:                                      {average_deliver_time_in_days}

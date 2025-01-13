@@ -13,6 +13,8 @@ TODO: Change the module name in this opening docstring
 # Import Modules
 #####################################
 
+import statistics
+
 # Import helpful modules from the Python Standard library
 # See more at: https://docs.python.org/3/library/
 
@@ -23,18 +25,6 @@ TODO: Change the module name in this opening docstring
 #####################################
 # Define global functions (reusable instructions)
 #####################################
-
-# Truth Value Testing 
-'''
-constants defined to be false: None and False
-zero of any numeric type: 0, 0.0, 0j, Decimal(0), Fraction(0, 1)
-empty sequences and collections: '', (), [], {}, set(), range(0)
-'''
-'''
-x or y  | if x is true, then x, else y
-x and y | if x is false, then x, else y
-not x   | if x is false, then True, else False
-'''
 
 #####################################
 # Define main() function for this module.

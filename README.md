@@ -17,7 +17,6 @@
 - What suggestions do you have for others based on your experience:
 - Display a screenshot showing your final code running and displaying your custom byline successfully:
 ---
-###
-Reusable utilities for my Python projects
+### Reusable utilities for my Python projects
 
-Test Python Code Online at [Online Python](https://www.online-python.com)
+### Test Python Code Online at [Online Python](https://www.online-python.com)
